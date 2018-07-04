@@ -118,6 +118,6 @@ fi
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
-[[ -s /home/muncok/.autojump/etc/profile.d/autojump.sh ]] && source /home/muncok/.autojump/etc/profile.d/autojump.sh
+[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
 # added by Anaconda3 4.3.1 installer
 export PATH="/home/muncok/anaconda3/bin:$PATH"
