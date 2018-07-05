@@ -29,3 +29,7 @@
 
     # 변경 내역에서 제외된 파일을 보고자 하는 alias
     assumels = git ls-files -v | grep '^[[:lower:]]'
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
