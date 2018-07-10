@@ -53,3 +53,8 @@ au BufNewFile,BufRead *.py
             \ set expandtab    |
             \ set autoindent   |
             \ set fileformat=unix
+
+map <C-c><C-c> :SlimuxREPLSendLine<CR>
+vmap <C-c><C-c> :SlimuxREPLSendSelection<CR>
+let g:slimux_select_from_current_window=1
+let g:slimux_python_ipython=1
